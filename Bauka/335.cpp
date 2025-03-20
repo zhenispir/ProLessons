@@ -59,11 +59,11 @@ int main(){
 	cin.tie(0);
 	cout.tie(0);
 	
-	int a, b;
+	int a, b, c;
 	cin >> a >> b;
 	for (int i = a; i < b+1; ++i){
-        // sqrt()
-		if ( i % 2 == 0){
+        c = sqrt(i);
+		if (i == c * c){
 			cout << i << '\n';
 		}
 	}
