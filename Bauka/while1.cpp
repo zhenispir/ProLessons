@@ -9,7 +9,7 @@ int main() {
 	
 	while (a <= 20) {	// condition (stopping point)
 		cout << a << '\t' << a*a << '\n';
-		a += 1;
+		a += 1;   // increment
 	}
 	
 	return 0;
