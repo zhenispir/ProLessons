@@ -1,4 +1,4 @@
-// C++ => bits/stdc++.h separately included headers
+// C++ => #include <bits/stdc++.h> separately included headers
 #include <algorithm>
 #include <bitset>
 #include <complex>
@@ -53,18 +53,29 @@
 #include <unordered_set>
 #endif
 
-
 using namespace std;
 
 int main() {
-	ios::sync_with_stdio(0);
-	cin.tie(0); cout.tie(0);
+	// ios::sync_with_stdio(0);
+	// cin.tie(0); cout.tie(0);
 	
-	int a, b;
-	cin >> a >> b;
+	/*
+    cout << "Zhenis" << endl << "Ernar" << endl << endl;
+    cout << "aa" << "\n" << "bb";
+    */
 	
-	cout << a / b << " " << a % b << endl;
-	
+    // VARIABLES
+    string a = "Ernar";  
+    // string: derek turi
+    // a: ainamalynyng atauy
+    // = ainamaly ushin koldanuylatyn belgi
+    // "Ernar": ainamalynyng mani
+    
+    cout << a;
+    /*
+    int san = 245; float double
+    bool x = true;
+    */
+
 	return 0;
 }
-
