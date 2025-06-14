@@ -56,26 +56,13 @@
 using namespace std;
 
 int main() {
-	// ios::sync_with_stdio(0);
-	// cin.tie(0); cout.tie(0);
 	
-	/*
-    cout << "Zhenis" << endl << "Ernar" << endl << endl;
-    cout << "aa" << "\n" << "bb";
-    */
+	int san1, san2;
+    cin >> san1 >> san2;
+    cout << san1 + san2; // 15
+    int san = 300;
+    cout << "\n";
+    cout << san + 100; // 400
 	
-    // VARIABLES - ainamaly
-    string a = "Ernar";  
-    // string: derek turi
-    // a: ainamalynyng atauy
-    // = ainamaly ushin koldanuylatyn belgi
-    // "Ernar": ainamalynyng mani
-    
-    cout << a;
-    /*
-    int san = 245; float double
-    bool x = true;
-    */
-
 	return 0;
 }
